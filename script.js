@@ -9,7 +9,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplaySpeed: 900,
         speed: 900,
-        autoplay: true,
+        autoplay: false,
         centerMode: true,
         centerPadding: '0px',
         cssEase: 'linear',
@@ -43,6 +43,7 @@ $(document).ready(function () {
                     slidesToShow:1,
                     centerPadding:'0px',
                     arrows:false,
+                    dots:true
                 }
             }
         ]
