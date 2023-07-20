@@ -1,0 +1,148 @@
+@media screen and (max-width:575px) {
+    .nav-bar .menu{display: none;position: absolute;right:20px; top: 130px; padding: 15px;  background-image: linear-gradient(270deg,#d74c26,#fdb72b);background-size: 100% 200%;z-index: 111;opacity: 1; border-radius: 20px;padding: 20px 15px;}
+    .nav-bar .menu li.active .submenu{position: static; height: 100%;background-color:transparent;z-index: 1;opacity: .9; border-radius: 20px;padding: 20px 15px;}
+    .nav-bar .bar-btn{display: block;}
+    .nav-bar .menu li a{padding: 12px 0px; display: inline-block; color: #fff;}
+    .nav-bar.on .bar-btn::before{opacity: 0;transition: all 0.3s linear;}
+    .nav-bar.on .bar-btn::after{transform: rotate(45deg) translate(6px , 9px); transition: all 0.3s linear;}
+    .nav-bar.on .bar-btn span::after{transform: rotate(-45deg) translate(6px ,-9px); transition: all 0.3s linear;}
+    .nav-bar .menu li.active .submenu::after{display: none;}
+    .dialog-box-login{max-width: 80%;right: 15px;}
+    .toggler-inner-btn{margin-top: 30px;background-color: #F37423;}
+    .nav-bar .menu{right:0;width: 80%; }
+    .banner-img-text{top: 15%;}
+    .banner-text{max-width: 100% ;}
+    .banner-text h1{font-size: 29px !important;}
+    .banner-text p{font-size: 16px !important;max-width: 80%;}
+    .banner-text button {padding: 6px 15px;}
+    .banner-img-main img{filter: brightness(.6); height: 280px;}
+    .aspire-text p{max-width: 100%; font-size: 21px !important;}
+    .aspire-main-box {padding: 50px 23px;}
+    .slick-prev:before{left: 35px; font-size: 30px;}
+    .slick-next:before{right: 35px; font-size: 30px;}
+    .slider-box-img-content p{max-width: 93%;}
+    .our-diffrent-text h2{font-size: 29px;}
+    .training-text p{max-width: 100%;}
+    .training-text h2{font-size: 29px;}
+    .bottom-footer-text h2{font-size: 14px;}
+}
+
+
+
+@media screen and (max-width:479px) {
+    .nav-bar .menu{right:0;width: 80%; }
+    .dialog-box-login{max-width: 92%;}
+    .banner-text p{font-size: 16px !important;max-width: 100%;}
+    .banner-img-main  img{height: 260px; object-fit: cover; filter: brightness(.6);}
+    .banner-text h1{font-size: 21px !important;}
+    .banner-img-main::after{filter: brightness(.5);}
+    .nav-bar .login{padding: 6px 0; width: 105px;}
+    .aspire-text p{font-size: 18px !important;}
+    .aspire-main-box{margin: 45px 0;}
+}
+
+
+
+@media screen and (min-width:576px) {
+    .nav-bar .menu{display: none;position: absolute;right:20px; top: 130px;  background-image: linear-gradient(45deg,#d74c26,#fdb72b);background-size: 100% 200%;z-index: 111;opacity: 1; border-radius: 20px;padding: 20px 15px;}
+    .nav-bar .menu li.active .submenu{position: static; height: 100%;background-color: transparent; z-index: 1;opacity: .9; border-radius: 20px;padding: 20px 15px;}
+    .nav-bar .bar-btn{display: block;}
+    .nav-bar .menu li a{padding: 12px 0px; display: inline-block; color: #fff;}
+    .nav-bar.on .bar-btn::before{opacity: 0;transition: all 0.3s linear;}
+    .nav-bar.on .bar-btn::after{transform: rotate(45deg) translate(6px , 9px); transition: all 0.3s linear;}
+    .nav-bar.on .bar-btn span::after{transform: rotate(-45deg) translate(6px ,-9px); transition: all 0.3s linear;}
+    .nav-bar .menu li.active .submenu::after{display: none;}
+    .toggler-inner-btn{margin-top: 30px;background-color: #F37423;}
+    .dialog-box-login{max-width: 80%;right: 15px;}
+    .nav-bar .menu{right:0;width: 70%; }
+    .banner-img-text{top: 15%;}
+    .banner-text{max-width: 100% ;}
+    .banner-text h1{font-size: 32px !important;}
+    .banner-text p{font-size: 18px !important;max-width: 86%;}
+    .banner-text button {padding: 9px 20px;}
+    .banner-img-main img{filter: brightness(.6);}
+    .aspire-text p{max-width: 96%;}
+    .aspire-main-box {padding: 50px 23px;}
+    .slick-prev:before{left: 35px; font-size: 30px;}
+    .slick-next:before{right: 35px; font-size: 30px;}
+    .slider-box-img-content p{max-width: 93%;}
+    .our-diffrent-text h2{font-size: 32px;}
+    .training-text p{max-width: 100%;}
+    .training-text h2{font-size: 32px;}
+    .bottom-footer-text h2{font-size: 16px;}
+
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    .dialog-box-login{max-width: 60%;}
+    .nav-bar .menu{width: 46%;}
+    .nav-bar .menu li.active .submenu{background-color:transparent;}
+    .banner-img-text{top: 25%;}
+    .banner-text{max-width: 80%;}
+    .banner-text h1{font-size: 36px !important;}
+    .banner-text button {padding: 13px 30px;}
+    .banner-img-main img{filter: brightness(.8);}
+    .aspire-main-box{padding: 70px 63px;}
+    .slider-box-img-content p{max-width: 93%;}
+    .our-diffrent-text h2{font-size: 36px;}
+    .training-text p{max-width: 95%;}
+    
+}
+
+
+
+
+@media screen and (min-width:992px) {
+    .nav-bar .menu li a{padding: 0 10px; color: #737373;}
+    .nav-bar .menu{display:flex; position: static;background: transparent;}
+    .nav-bar .bar-btn{display: none;}
+    .nav-bar .menu li.active .submenu::after{display: block; }
+    .nav-bar .menu li.active .submenu{position: absolute;height: auto;background-color:#f37323de;}
+    .nav-bar .menu{width: auto; padding: 0;}
+    .dialog-box-login{max-width: 40%;}
+    .banner-img-text{top: 35%;}
+    .banner-text{max-width: 62%;}
+    .banner-text h1{font-size: 36px !important;}
+    .banner-text button {padding: 13px 30px;}
+    .banner-img-main img{filter: brightness(.9);}
+    .banner-text p{font-size: 18px !important;max-width: 80%;}
+    .slick-prev:before{left: 35px; font-size: 30px;}
+    .slick-next:before{right: 35px; font-size: 30px;}
+    .slider-box-img-content p{max-width: 97%;}
+    .card-body-text p{max-width: 100%;}
+    .training-text p{max-width: 66%;}
+}
+
+
+@media screen and (min-width:1200px) {
+    .nav-bar .menu li a{padding: 0 24px;}
+    .dialog-box-login{max-width: 35%;}
+    .banner-img-text{top: 40%;}
+    .banner-text{max-width: 56%;}
+    .banner-text h1{font-size: 40px !important;}
+    .banner-text button {padding: 17px 41px;}
+    .banner-img-main img{filter:none;}
+    .banner-text p{font-size: 18px !important;max-width: 77%;}
+    .aspire-text p{max-width: 89%;}
+    .aspire-main-box{padding: 83px 107px;}
+    .slick-prev:before{left: -17px;}
+    .slick-next:before{right: -16px;}
+    .slider-box-img-content p{max-width: 97%;}
+    .training-text p{max-width: 60%;}
+}
+
+
+@media screen and (min-width:1400px) {
+    .container{max-width: 1140px;}
+    .dialog-box-login{max-width: 25%;}
+    .banner-img-text{top: 45%;}
+    .banner-text{max-width: 56%;}
+    .banner-text p{max-width: 77%;}
+    .slick-prev:before{left: -25px; font-size: 40px;}
+    .slick-next:before{right: -25px; font-size: 40px;}
+    .slider-box-img-content p{max-width: 97%;}
+
+}
