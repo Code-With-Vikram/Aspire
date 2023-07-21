@@ -8,12 +8,11 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplaySpeed: 2000,
-        speed: 900,
+        speed: 100,
         autoplay: false,
         centerMode: true,
         centerPadding: '0px',
         cssEase: 'linear',
-        speed: 5000,
         Infinity: false,
         responsive:[
             {
